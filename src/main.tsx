@@ -4,7 +4,7 @@ import './index.css'
 import App from './App'
 import { TonConnectUIProvider } from '@tonconnect/ui-react'
 
-const manifestUrl = "https://raw.githubusercontent.com/ton-community/tutorials/main/03-client/test/public/tonconnect-manifest.json"
+const manifestUrl = "https://lc-li.github.io/test-ton/tonconnect-mainfest.json"
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <TonConnectUIProvider manifestUrl={manifestUrl}>
